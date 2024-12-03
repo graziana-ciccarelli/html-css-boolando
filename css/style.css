@@ -87,7 +87,7 @@ body {
   }
   
   /* Product Card */
-  .product-card{
+.product-card{
     background: #fff;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -187,3 +187,22 @@ body {
     transform: scale(1.2);
   }
   
+
+  /* Footer */
+.footer{
+    background: #222;
+    color: #fff;
+    padding: 20px 0;
+    
+  }
+  
+  .footer a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    ;
+  }
+.footer .socials a {
+    display: inline-block;
+    margin: 5px;
+   }
