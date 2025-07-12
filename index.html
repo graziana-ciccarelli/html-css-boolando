@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boolando</title>
-    <link rel="stylesheet" href="./css/style.css"
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Boolando</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <!-- FontAwesome CDN per icone social -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 <body>
-    <!--Header-->
+
+  <!-- Header -->
   <header class="header">
     <div class="header-container">
-        <!-- Navigation Menu -->
+      <!-- Navigation Menu -->
       <nav class="navbar">
         <ul>
           <li><a href="#">Donna</a></li>
@@ -18,27 +21,28 @@
           <li><a href="#">Bambini</a></li>
         </ul>
       </nav>
-      
+
       <!-- Logo -->
       <div class="logo">
-        <img src="./img/boolean-logo.png" alt="Logo">
+        <img src="./img/boolean-logo.png" alt="Logo Boolando" />
       </div>
 
       <!-- User Actions -->
       <div class="user-actions">
-        <a href="#"><img src="./img/profile.svg" alt="Profile"></a>
-        <a href="#"><img src="./img/heart.svg" alt="Heart"></a>
-        <a href="#"><img src="./img/search.svg" alt="Search"></a>
+        <a href="#"><img src="./img/profile.svg" alt="Profilo" /></a>
+        <a href="#"><img src="./img/heart.svg" alt="Preferiti" /></a>
+        <a href="#"><img src="./img/search.svg" alt="Cerca" /></a>
       </div>
     </div>
-    </header>
+  </header>
 
-     <!-- Main Content -->
+  <!-- Main Content -->
   <main class="product-grid">
+
     <!-- Product Card 1 -->
     <div class="product-card">
       <div class="product-image">
-        <img src="./img/1.webp" alt="Relaxed Fit Tee">
+        <img src="./img/1.webp" alt="Relaxed Fit Tee" />
         <span class="badge discount">-50%</span>
         <span class="badge sustainability">Sostenibilità</span>
       </div>
@@ -47,13 +51,13 @@
         <h3>RELAXED FIT TEE UNISEX</h3>
         <p class="price"><span class="discounted">14,99 €</span> <span class="original">29,99 €</span></p>
       </div>
-      <button class="wishlist">❤️</button>
+      <button class="wishlist" aria-label="Aggiungi ai preferiti">❤️</button>
     </div>
 
     <!-- Product Card 2 -->
     <div class="product-card">
       <div class="product-image">
-        <img src="./img/2.webp" alt="Guess Tee">
+        <img src="./img/2.webp" alt="Guess Tee" />
         <span class="badge discount">-30%</span>
       </div>
       <div class="product-info">
@@ -61,13 +65,13 @@
         <h3>ROSES TEE</h3>
         <p class="price"><span class="discounted">29,99 €</span> <span class="original">39,99 €</span></p>
       </div>
-      <button class="wishlist">❤️</button>
+      <button class="wishlist" aria-label="Aggiungi ai preferiti">❤️</button>
     </div>
 
     <!-- Product Card 3 -->
     <div class="product-card">
       <div class="product-image">
-        <img src="./img/3.webp" alt="Pastel Suit">
+        <img src="./img/3.webp" alt="Pastel Suit" />
         <span class="badge discount">-30%</span>
       </div>
       <div class="product-info">
@@ -75,68 +79,73 @@
         <h3>VOGLIA DI COLORI A PASTELLO</h3>
         <p class="price"><span class="discounted">129,99 €</span> <span class="original">184,99 €</span></p>
       </div>
-      <button class="wishlist">❤️</button>
+      <button class="wishlist" aria-label="Aggiungi ai preferiti">❤️</button>
     </div>
 
     <!-- Product Card 4 -->
     <div class="product-card">
       <div class="product-image">
-        <img src="./img/4.webp" alt="Tee Unisex">
+        <img src="./img/4.webp" alt="Tee Unisex" />
         <span class="badge discount">-50%</span>
-        <span class="badge">Sostenibilità</span>
+        <span class="badge sustainability">Sostenibilità</span>
       </div>
       <div class="product-info">
         <span class="brand">Levi's</span>
         <h3>TEE UNISEX</h3>
-        <p class="price"><span class="discounted">14,99 €</span> <span class="original">29,99</span>
+        <p class="price"><span class="discounted">14,99 €</span> <span class="original">29,99 €</span></p>
       </div>
-      <button class="wishlist">❤️</button>
+      <button class="wishlist" aria-label="Aggiungi ai preferiti">❤️</button>
     </div>
 
     <!-- Product Card 5 -->
     <div class="product-card">
       <div class="product-image">
-        <img src="./img/5.webp" alt="Black Sweater">
-       
+        <img src="./img/5.webp" alt="Black Sweater" />
       </div>
       <div class="product-info">
         <span class="brand">Maya Deluxe</span>
         <h3>STRIPE BODICE</h3>
         <p class="price"><span class="discounted">99,99 €</span></p>
       </div>
-      <button class="wishlist">❤️</button>
+      <button class="wishlist" aria-label="Aggiungi ai preferiti">❤️</button>
     </div>
 
     <!-- Product Card 6 -->
     <div class="product-card">
       <div class="product-image">
-        <img src="./img/6.webp" alt="Tee Unisex">
-        
+        <img src="./img/6.webp" alt="Maglione Esprit" />
         <span class="badge sustainability">Sostenibilità</span>
       </div>
       <div class="product-info">
         <span class="brand">Esprit</span>
         <h3>MAGLIONE - BLACK</h3>
-        <p class="price"><span class="discounted">29,99 €</span> 
+        <p class="price"><span class="discounted">29,99 €</span></p>
       </div>
-      <button class="wishlist">❤️</button>
+      <button class="wishlist" aria-label="Aggiungi ai preferiti">❤️</button>
     </div>
+
   </main>
 
+  <!-- Footer -->
   <footer class="footer">
     <div class="container">
       <h3>Boolando s.r.l</h3>
-      <p><a href="#">Informazioni legali</a>  <a href="#">Informativa sulla privacy</a> <a href="#">Diritto di recesso</a></p>
-    <div class="socials">
-        <h3>Trovaci anche su</h3>
-        <a href="#"><img src="./img/twitter-logo-2429.svg"</a>
-        <a href="#"><img src="./img/facebook-logo-2428.svg"</a>
-        <a href="#"><img src="./img/instagram-logo-8869 (1).svg"</a>
-        <a href="#"><img src="./img/pinterest-logo-2432.svg"</a>
-        <a href="#"><img src="./img/youtube-logo-2431 (1).svg"</a>
-    </div>
-    </footer>
+      <p>
+        <a href="#">Informazioni legali</a> |
+        <a href="#">Informativa sulla privacy</a> |
+        <a href="#">Diritto di recesso</a>
+      </p>
 
-    
+      <div class="socials">
+        <h3>Trovaci anche su</h3>
+        <a href="#" aria-label="Twitter" class="social-link"><i class="fab fa-twitter"></i></a>
+        <a href="#" aria-label="Facebook" class="social-link"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="Instagram" class="social-link"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="Pinterest" class="social-link"><i class="fab fa-pinterest-p"></i></a>
+        <a href="#" aria-label="YouTube" class="social-link"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </footer>
+
 </body>
 </html>
